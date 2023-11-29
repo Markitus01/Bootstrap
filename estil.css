@@ -1,13 +1,16 @@
-header {
-  background: lightseagreen;
-  padding: 10px;
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  min-height: 100vh;
 }
-section:nth-child(1) {
-  background-color: lightgreen;
+html img {
+  width: 50px;
+  height: 50px;
 }
-section:nth-child(2) {
-  background-color: lightblue;
+html body header .flags img {
+  width: 20px;
+  height: auto;
 }
-section:nth-child(3) {
-  background-color: lightcoral;
+html body nav {
+  background-color: #ccd2d3;
 }
